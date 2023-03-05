@@ -57,7 +57,7 @@ p{
     font-size: 200px;
     position: relative;
     border: 2px black;
-    text-shadow:  15px 10px 100px red;
+    text-shadow:  1px 5px 100px red;
 }
 p::after{
     content: "Rayyona";
