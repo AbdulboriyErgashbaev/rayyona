@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.ota{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.card  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#AA076B,#61045F);
+    animation: card 2s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+animation-delay: 2s;
+transition: 3s;
+}
+.card h3{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-shadow: 20px 8px 3px  red;
+    font-weight: 900;
+    color: yellow;
+    text-transform: uppercase;
+}
+@keyframes card {
+    to{
+        top: 100vh;
+    }
+}
+button{
+    padding: 10px 20px;
+    border-radius: 15px 0 15px 0;
+    color: purple;
+    background: aquamarine;
+    font-size: 15px;
+    letter-spacing: 3px;
+    border-color:purple ;
+    
+
+}
+p{
+    opacity: 0;
+    color: red;
+    font-size: 200px;
+    
+    position: relative;
+}
+p::after{
+    content: "Rayyona";
+    position: absolute;
+    color: white;
+
+    text-shadow:5px 5px 5px ;
+    font-size: 30px;
+    right: 45px;
+    top: 60px;
+    
+}
+.show-heart{
+    transition: all ease 4s;
+    opacity: 1;
+}
+
+.body-bgc{
+    background-color: rgb(0, 0, 45);
+}
+.show-btn{
+opacity: 0;
+}
+
+
+
+
+
+
+
+i{
+    position: absolute;
+    color: red;
+    top: 0;
+    animation: qor 3s linear forwards;
+}
+@keyframes qor {
+  
+    to {
+        transform: translateY(105vh);
+
+    }
+}
