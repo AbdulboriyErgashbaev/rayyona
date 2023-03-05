@@ -37,7 +37,7 @@ transition: 3s;
 }
 @keyframes card {
     to{
-        top: 100vh;
+        top: 200vh;
     }
 }
 button{
